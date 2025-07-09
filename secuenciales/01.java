@@ -12,8 +12,11 @@ public class 01 {
         int mujeres = scanner.nextInt();
 
         int total = varones + mujeres;
-        System.out.println("Total de estudiantes: " + total);
+        double porcentajeVarones = (varones * 100.0) / total;
+        double porcentajeMujeres = (mujeres * 100.0) / total;
+
+        System.out.println("Porcentaje de varones: " + porcentajeVarones + "%");
+        System.out.println("Porcentaje de mujeres: " + porcentajeMujeres + "%");
     }
 
 }
-
