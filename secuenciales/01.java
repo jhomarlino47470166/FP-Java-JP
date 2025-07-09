@@ -11,7 +11,6 @@ public class 01 {
         System.out.print("Mujeres: ");
         int mujeres = scanner.nextInt();
 
-        // Aquí puedes hacer algo con los datos, por ejemplo:
         int total = varones + mujeres;
         System.out.println("Total de estudiantes: " + total);
     }
